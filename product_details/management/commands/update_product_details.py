@@ -18,7 +18,7 @@ STORAGE_CLASS = import_string(settings_fallback("PROD_DETAILS_STORAGE"))
 
 
 class Command(BaseCommand):
-    help = "Update Mozilla product details off SVN."
+    help = "Update Mozilla Product Details from PROD_DETAILS_URL JSON API."
     requires_model_validation = False
 
     def __init__(self, *args, **kwargs):
