@@ -141,7 +141,7 @@ To use the data, just import the library:
 
 The library turns all imported JSON files automatically into Python
 objects. The contents are perhaps best inspected using
-`IPython <http://ipython.scipy.org/>`__.
+`IPython <https://ipython.readthedocs.io/>`__.
 
 Version Compare
 ---------------
