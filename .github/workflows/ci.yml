@@ -24,8 +24,6 @@ jobs:
           # We don't want every combination of the above, as some are not compatible
           - python-version: "3.11"
             django-tox-env: "django32"
-          - python-version: "3.11"
-            django-tox-env: "django40"
           - python-version: "3.9"
             django-tox-env: "django51"
           - python-version: "3.9"
